@@ -74,9 +74,6 @@ for dsi = 1:1:length(dataname)
                 aRuntime = mean(runtime);
                 PResBest = ResBest(ir, :);
                 PStdBest = StdBest(ir, :);
-                save(['./result/', dataname{dsi},Incom_rate{ir}, '.mat'], 'ACC', 'NMI', 'Purity', 'aRuntime', ...
-                    'newF', 'newU', 'PResBest', 'PStdBest','objection');
-                save(['./result/', dataname{dsi}, '.mat'],'StdBest','ResBest');
             end
         end
         
