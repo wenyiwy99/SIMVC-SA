@@ -10,7 +10,9 @@ The success of existing multi-view clustering (MVC) relies on the assumption tha
 # Datasets
 - dataset/BDGP_fea_Per0.1.mat
 - dataset/BDGP_fea_Per0.2.mat
-...
+
+    . . .
+
 - dataset/BDGP_fea_Per0.9.mat
 
 # Citations
